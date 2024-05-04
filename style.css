@@ -1,0 +1,266 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    .noto-sans-jp-uniquifier {
+      font-family: "Noto Sans JP", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
+    }
+
+/* Hero section */
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+span{
+    color: rgb(40, 142, 81);
+}
+
+.hero nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 8% 0 8%;
+}
+
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.4s;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: lightseagreen;
+}
+
+.bnt{
+    background-color: rgb(62, 138, 62);
+    color: rgb(213, 181, 181);
+    padding: 10px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition:all 0.2s ;
+}
+
+.bnt:hover{
+    border-radius: 20px;
+}
+
+
+
+.content .body{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 100px;
+}
+
+h2{
+    color: rgb(209, 206, 206);
+    margin: 20px 0 20px;
+    font-size: 65px;
+}
+
+h3{
+    color: rgb(193, 192, 192);
+    font-size: 25px;
+}
+
+h4{
+    color: rgb(172, 169, 169);
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.newlatter form {
+    width: 100px;
+    position: relative;
+    margin-top: 5%;
+    display: flex;
+}
+
+.newlatter form input:first-child{
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 20px;
+}
+
+.newlatter form input:last-child{
+    position: absolute;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    left: 240%;
+    background-color: rgb(160, 252, 137);
+}
+
+
+/* about section */
+
+strong{
+    color: rgb(61, 234, 61);
+}
+
+h2{
+    color:rgb(228, 252, 251);
+}
+#about{
+   width: 100%;
+   background-color: black;
+   padding: 100px 0;
+}
+
+.about img{
+contain: 15px;
+margin-top: 25px;
+
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.about-text{
+    color: rgb(208, 200, 200);
+    margin-left: 30px ;
+    padding: 0% 10%;
+}
+h5{
+    color: rgb(178, 104, 88);
+   
+}
+
+.about-text p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.logofb{
+    font-size: 20px;
+    text-decoration: none;
+    background-color: rgb(14, 53, 213);
+    color: white;
+    transition: all 0.4s;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+.logofb:hover{
+    border-color: transparent;
+    cursor: pointer;
+}
+
+
+/* about work section*/
+
+#work{
+    width: 100%;
+    padding: 100px 20px;
+    background-color: black;
+   
+}
+
+.title h2{
+    color: rgb(240, 227, 227);
+    text-align: center;
+    font-size: 70px;
+}
+
+.pragraph p{
+    color: rgb(209, 204, 204);
+}
+.card{
+    padding: 0% 30px;
+    height: 390px;
+    width: 365;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: #191919;
+    overflow: hidden;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+h4{
+    color: rgb(251, 130, 130);
+}
+
+/* Nam section*/
+
+#Nam{
+    margin-bottom: 50px;
+}
+
+#Nam h3{
+    display: flex;
+    
+    
+}
+
+#Nam p{
+    color: rgb(198, 191, 191);
+    margin:0% 10%;
+    padding: 0% 10%;
+    font-size: 25px;
+
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #191919;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: rgb(199, 195, 195);
+
+}
+
+#Nam h3{
+    font-size: 50px;
+    margin-left:35%;
+}
+
+#Nam h5{
+    margin-left: 20%;
+    margin-top: 2%;
+}
+ 
+.end{
+    color: rgb(182, 177, 177);
+    font-size: 20px;
+    margin-top: 1%;
+
+}
+
+
+
+}
+
